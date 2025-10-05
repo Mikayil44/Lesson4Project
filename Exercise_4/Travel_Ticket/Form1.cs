@@ -30,10 +30,10 @@ namespace Travel_Ticket
             listBox1.Items.Add(ticket);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) 
         {
-            string temp = comboBox1.SelectedItem.ToString(); // Store the value of str1 in a temporary variable
-            comboBox1.Text = comboBox2.SelectedItem.ToString();        // Assign the value of str2 to str1
+            string temp = comboBox1.SelectedItem.ToString();
+            comboBox1.Text = comboBox2.SelectedItem.ToString();    
             comboBox2.Text = temp;
         }
 
@@ -48,3 +48,4 @@ namespace Travel_Ticket
         }
     }
 }
+
